@@ -1,0 +1,20 @@
+schema: paperclip/v1
+agents:
+  practice-director:
+    inputs:
+      env:
+        ANTHROPIC_API_KEY:
+          kind: secret
+          requirement: required
+  billing-specialist:
+    inputs:
+      env:
+        ANTHROPIC_API_KEY:
+          kind: secret
+          requirement: required
+  hipaa-compliance-officer:
+    inputs:
+      env:
+        ANTHROPIC_API_KEY:
+          kind: secret
+          requirement: required
